@@ -1,5 +1,9 @@
 # Youtube-API
 
+<-- required libaries -->
+google-api-python-client
+google_auth_oauthlib
+
 
 https://www.googleapis.com/youtube/v3/channels?part=statistics&id=(channel_id)&key=(key)
 
