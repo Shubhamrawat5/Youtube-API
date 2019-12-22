@@ -8,8 +8,9 @@ content = f.read()
 print(content)
 list = content.split(" ")
 print(list)
-print(list.index('SidTalk'))
-print(list[298])
+print(list.index('Abb'))
+print(list[450])
+#twent to Abb [DONE]
 # json file downloaded from google credentials
 CLIENT_SECRET_FILE = 'client.json'
 SCOPES = ['https://www.googleapis.com/auth/youtube.force-ssl']
@@ -43,6 +44,6 @@ def subscribing(channel_name,channel_id):
 
 print(len(list))
 # 1700
-for i in range(304,1700 , 2):
+for i in range(450,1700 , 2):
     time.sleep(0.5)
     subscribing(list[i], list[i+1])
