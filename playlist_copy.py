@@ -1,3 +1,5 @@
+# To get all the data (title and videoID) of our playlist
+
 from googleapiclient.discovery import build
 
 # google API key
