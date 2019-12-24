@@ -2,10 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1bf97715-c819-4b05-abb8-61066887d9e4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/playlist_copy.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/playlist_copy 2.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/playlist_copy.py" beforeDir="false" afterPath="$PROJECT_DIR$/playlist_copy.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/playlist_title_videoId.txt" beforeDir="false" afterPath="$PROJECT_DIR$/playlist_title_videoId.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/subscribing.py" beforeDir="false" afterPath="$PROJECT_DIR$/subscribing.py" afterDir="false" />
     </list>
+    <ignored path="F:\youtbe API\.idea\shelf/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,15 +20,43 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/playlist_copy.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="290">
-              <caret line="49" column="45" lean-forward="true" selection-start-line="49" selection-start-column="45" selection-end-line="49" selection-end-column="45" />
+            <state relative-caret-position="144">
+              <caret line="8" column="47" selection-start-line="8" selection-start-column="47" selection-end-line="8" selection-end-column="47" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/subscribing.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="276">
+              <caret line="48" column="35" lean-forward="true" selection-start-line="48" selection-start-column="35" selection-end-line="48" selection-end-column="35" />
+              <folding>
+                <element signature="e#0#43#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/playlist_copy 2.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="12" column="7" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
+              <folding>
+                <element signature="e#0#43#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/playlist_title_videoId.txt">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="44" lean-forward="true" selection-end-column="13934" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -53,8 +84,9 @@
         <option value="$PROJECT_DIR$/yt_copy_sub_bot" />
         <option value="$PROJECT_DIR$/arranging_subs.py" />
         <option value="$PROJECT_DIR$/venv/first_comment.py" />
-        <option value="$PROJECT_DIR$/subscribing.py" />
         <option value="$PROJECT_DIR$/playlist_copy.py" />
+        <option value="$PROJECT_DIR$/subscribing.py" />
+        <option value="$PROJECT_DIR$/playlist_copy 2.py" />
       </list>
     </option>
   </component>
@@ -124,7 +156,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.playlist_copy">
+  <component name="RunManager" selected="Python.playlist_copy 2">
     <configuration name="arranging_subs" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="youtubeAPI" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -167,7 +199,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="like_comment" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="playlist_copy 2" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="youtubeAPI" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -179,7 +211,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/like_comment.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/playlist_copy 2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -253,11 +285,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.playlist_copy 2" />
         <item itemvalue="Python.playlist_copy" />
         <item itemvalue="Python.first_comment" />
         <item itemvalue="Python.arranging_subs" />
         <item itemvalue="Python.wa_tagging_everyone" />
-        <item itemvalue="Python.like_comment" />
       </list>
     </recent_temporary>
   </component>
@@ -272,12 +304,28 @@
       <option name="presentableId" value="Default" />
       <updated>1576691443133</updated>
     </task>
+    <task id="LOCAL-00001" summary="added youtube API playlist files">
+      <created>1577053815533</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1577053815533</updated>
+    </task>
+    <task id="LOCAL-00002" summary="added youtube API playlist files">
+      <created>1577054053259</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1577054053259</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13672923" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13672923" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -289,12 +337,56 @@
       <window_info anchor="bottom" id="Version Control" order="6" weight="0.32956153" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.042432815" />
       <window_info anchor="bottom" id="Python Console" order="8" />
-      <window_info anchor="bottom" id="Run" order="9" sideWeight="0.91611624" visible="true" weight="0.3437058" />
+      <window_info active="true" anchor="bottom" id="Run" order="9" sideWeight="0.91611624" visible="true" weight="0.36350778" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Event Log" order="3" sideWeight="0.083883755" weight="0.44233575" />
     </layout>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="added youtube API playlist files" />
+    <option name="LAST_COMMIT_MESSAGE" value="added youtube API playlist files" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/venv/client_secret">
@@ -320,13 +412,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/yt_copy_sub_bot" />
     <entry file="file://$PROJECT_DIR$/yt_copy_sub_bot.py" />
-    <entry file="file://$PROJECT_DIR$/subscribing.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="1" column="20" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/venv/first_comment.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="36">
@@ -374,13 +459,37 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/playlist_copy.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="49" column="45" lean-forward="true" selection-start-line="49" selection-start-column="45" selection-end-line="49" selection-end-column="45" />
+        <state relative-caret-position="144">
+          <caret line="8" column="47" selection-start-line="8" selection-start-column="47" selection-end-line="8" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/subscribing.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="48" column="35" lean-forward="true" selection-start-line="48" selection-start-column="35" selection-end-line="48" selection-end-column="35" />
+          <folding>
+            <element signature="e#0#43#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/playlist_title_videoId.txt">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="44" lean-forward="true" selection-end-column="13934" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/playlist_copy 2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="12" column="7" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
+          <folding>
+            <element signature="e#0#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
   </component>
 </project>

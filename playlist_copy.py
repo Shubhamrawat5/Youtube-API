@@ -14,7 +14,7 @@ def playlistItems(items, ResultOnPage):
     for i in range(ResultOnPage):
         title = items[i]['snippet']['title']
         # print(title,end="")
-        videoId = items[0]['snippet']['resourceId']['videoId']
+        videoId = items[i]['snippet']['resourceId']['videoId']
         # print(videoId)
         d[title] = videoId
 
