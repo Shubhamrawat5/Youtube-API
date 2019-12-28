@@ -12,12 +12,14 @@ d = {}
 # Function to get title and videoId of every video on playlist
 def playlistItems(items, ResultOnPage):
     for i in range(ResultOnPage):
-        title = items[i]['snippet']['title']
-        # print(title,end="")
-        videoId = items[i]['snippet']['resourceId']['videoId']
-        # print(videoId)
-        d[title] = videoId
-
+        try:
+            title = items[i]['snippet']['title']
+            # print(title,end="")
+            videoId = items[i]['snippet']['resourceId']['videoId']
+            # print(videoId)
+            d[title] = videoId
+        except:
+            pass
     #print(d)
     #print(len(d))
 
@@ -42,11 +44,12 @@ for totalItems in range(int(TotalItems/ResultPerPage)-1):
 
 # For remaining vidoes
 remaining = TotalItems-len(d)
+
 if remaining != 0:
     NextPagetoken = result['nextPageToken']
     result = yt.playlistItems().list(part='snippet', playlistId='PLoFpzuHUvnne28IGQp8Ph2DOhyNHaMAKe',
                                      pageToken=NextPagetoken).execute()
-    playlistItems(result['items'],remaining)
+    playlistItems(result['items'], remaining)
 
 print(d)
 print("Length of our formed dict is ",len(d))
