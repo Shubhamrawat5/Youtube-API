@@ -20,3 +20,11 @@ https://developers.google.com/youtube/v3/docs/
 https://developers.google.com/youtube/v3/guides/authentication 
 
 https://developers.google.com/identity/protocols/googlescopes
+
+
+<hr>
+
+## Note:
+### I used this for my personal use to copy subscription and copy playlist videos to my second youtube account so the code written is for my use only. 
+
+### I'll try to make it for everyone to use for themself and will add all the instructions how to use it in future. (As I'm not having a laptop currently so i can't modify and change the code currently)
